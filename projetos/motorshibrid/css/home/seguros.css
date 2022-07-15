@@ -1,0 +1,172 @@
+.seguros-bg {
+  padding: 60px 0;
+  background-color: var(--cor-11);
+}
+
+.seguros h1 {
+  margin-bottom: 32px;
+  margin-left: 20px;
+}
+
+.seguros h2 {
+  margin-bottom: 18px;
+}
+
+.seguros h2,
+.seguros p {
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.seguros p {
+  margin-bottom: 20px;
+}
+
+.perguntas h2 {
+  margin-bottom: 60px;
+}
+
+.perguntas dl>div {
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 0 20px;
+  width: 50vw;
+
+
+}
+
+.perguntas dl>div:nth-child(odd) {
+  background-color: var(--cor-10);
+}
+
+.perguntas dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+
+
+
+
+}
+
+.perguntas dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+
+.perguntas dt::after {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 12px;
+  background: url('/assets/img/icons/seta-abrir.svg');
+  transition: .3s;
+}
+
+.perguntas dt:hover::after {
+  transform: rotate(180deg)
+}
+
+.perguntas dt[aria-expanded="true"]::after,
+.perguntas dt:hover::after {
+  transform: rotate(180deg);
+
+}
+
+
+
+.perguntas dd {
+  padding-left: 20px;
+  padding-top: 16px;
+  display: none;
+  max-width: 32ch;
+}
+
+
+@keyframes to-down {
+  0% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 100;
+  }
+}
+
+
+.perguntas dd.ativa {
+  display: flex;
+  animation: to-down .6s;
+}
+
+.perguntas {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.seguros-icons {
+  width: auto;
+  object-fit: cover;
+  position: relative;
+}
+
+.seguros-btn {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.seguros-btn .botao {
+  width: 28%;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media(max-width:1200px) {
+  .perguntas {
+    display: grid;
+  }
+
+  .perguntas dl>div {
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0 20px;
+    width: auto;
+  }
+
+  .seguros-icons {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .seguros-btn .botao {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 800px) {
+  .seguros-bg {
+    padding: 20px 0;
+  }
+}
+
+@media(max-width:300px) {
+  .seguros p {
+    word-break: break-all;
+  }
+}

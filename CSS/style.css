@@ -1,0 +1,27 @@
+
+
+
+/*  =========== GLOBAL ============= */
+
+@import url('../CSS/global/global.css');
+@import url('../CSS/global/header.css');
+@import url('../CSS/global/footer.css');
+
+/*  =========== HOME ============= */
+@import url('../CSS/home/introducao.css');
+@import url('../CSS/home/referencia.css');
+@import url('../CSS/home/informacoes.css');
+
+/*  =========== HOME ============= */
+@import url('../CSS/home/introducao.css');
+@import url('../CSS/home/referencia.css');
+@import url('../CSS/home/informacoes.css');
+
+/*  =========== UTILIDADES ============= */
+@import url('../CSS/ultilidades/cores.css');
+@import url('../CSS/ultilidades/tipografia.css');
+@import url('../CSS/ultilidades/componentes.css');@import url('../CSS/ultilidades/dropdown-menu.css');
+
+
+
+

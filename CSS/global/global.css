@@ -1,0 +1,30 @@
+*,
+boby {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+ul, a, li{
+  text-decoration: none;
+  list-style: none;
+  
+}
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+  padding: 0;
+  margin: 0;
+}

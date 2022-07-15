@@ -1,0 +1,180 @@
+.seguros-main-texto h1 {
+  margin-bottom: 32px;
+}
+
+.seguros-main-texto p {
+  margin-bottom: 20px;
+}
+
+
+.seguros-main-grid {
+  padding: 40px 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: 40px;
+
+  justify-content: center;
+}
+
+.seguros-main-grid .silver {
+  max-width: max-content;
+  background: var(--cor-1);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  padding: 50px 40px;
+  border-radius: 4px;
+}
+
+.silver {
+  display: grid;
+  gap: 10px;
+}
+
+.silver-flex h3::after {
+  display: flex;
+  content: "";
+  width: 50%;
+  top: 2px;
+  height: 2px;
+  position: relative;
+
+  background-color: var(--cor-6);
+}
+
+.gold-flex h3::after {
+  display: flex;
+  content: "";
+  width: 50%;
+  top: 2px;
+  height: 2px;
+  position: relative;
+
+  background-color: var(--cor-p1);
+}
+
+.seguros-main-grid .silver-flex,
+.seguros-main-grid .gold-flex {
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+}
+
+
+
+.seguros-main-grid .gold {
+  padding: 40px 40px;
+  max-width: max-content;
+  background: var(--cor-11);
+  border-radius: 4px;
+}
+
+.check-seguro {
+  display: flex;
+  gap: 8px;
+}
+
+
+.gold {
+  display: grid;
+  gap: 10px;
+}
+
+
+.seguros-main-grid .silver-flex,
+.seguros-main-grid .gold-flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.seguros-main-grid .silver-flex span {
+  display: inline;
+}
+
+@media(max-width:1100px) {
+
+  .seguros-main-grid {
+    padding: 40px 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .seguros-main-texto {
+    grid-column: 1/-1;
+  }
+
+}
+
+@media(max-width:800px) {
+  .seguros-main-grid {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .seguros-main-grid .gold {
+    padding: 40px 40px;
+    max-width: 100%;
+    background: var(--cor-11);
+    border-radius: 4px;
+  }
+
+  .seguros-main-grid .silver {
+    padding: 40px 40px;
+    max-width: 100%;
+
+    border-radius: 4px;
+  }
+
+
+}
+
+
+/*  */
+
+.selecionar {
+
+  padding: 40px 20px;
+  padding-bottom: 0;
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  grid-template-columns: auto;
+
+  
+}
+
+.selecionar h1 {
+  margin-bottom: 32px;
+}
+
+@media(max-width:1100px){
+  .selecionar-grid .seguros-main-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media(max-width:700px){
+  .selecionar-grid .seguros-main-grid {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .selecionar-grid .seguros-main-grid a {
+    margin: 0 auto;
+  }
+
+}
