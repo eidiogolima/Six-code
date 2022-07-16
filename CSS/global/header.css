@@ -77,7 +77,14 @@
 .liga-desliga_checkbox:checked+.liga-desliga_botao::after {
   left: 1.025em;
 }
-
+/* Esconder liga/desliga */
+@media(max-width:370px){
+  .liga-desliga_botao, 
+  .liga-desliga_botao::before,
+.liga-desliga_botao::after {
+    display: none;
+  }
+}
 
 
 
@@ -102,6 +109,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
   
 }
 
@@ -124,14 +132,16 @@
 
 
 .pesquisar input{
-  border: 0px;
+  border: 1px solid transparent;
   padding: 10px;
   border-radius: 10px;
   max-width: 120px;
 }
 .pesquisar input:focus {
+  border: 1px solid #2AF598;
   outline: 0;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.5)
+
+  box-shadow: 0px 2px 4px #06A9F1
 
 }
 
@@ -186,9 +196,12 @@
 
 
   }
+  #nav.active #menu {
+    height: calc(100vh - 142px);
+
+  }
   #nav.active #menu,
   #nav.active #menu .lista-itens {
-    height: calc(100vh - 70px);
     visibility: visible;
     overflow-y: auto;
   }

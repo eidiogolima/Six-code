@@ -1,0 +1,190 @@
+#introducao {
+  padding: 100px 0px;
+  background: var(--cor-b);
+}
+
+.introducao-itens {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+
+}
+
+
+.introducao-item-1 {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  z-index: 4;
+}
+
+.introducao-item-1 h1 {
+  margin-bottom: 32px;
+  max-width: 16ch;
+}
+
+.introducao-item-1 button {
+  margin-bottom: 20px;
+}
+
+
+.introducao-item-1 .pesquisar {
+  display: flex;
+  width: 500px;
+  max-width: 100%;
+}
+
+.introducao-item-1 .pesquisar input {
+  width: 100%;
+  max-width: 100%;
+  padding: 16px 32px;
+  border-radius: 50px;
+}
+
+.introducao-item-1 .pesquisar #buscar {
+  background: url("../../assets/img/icons/buscar.svg") no-repeat right / 2em;
+  padding-left: 2em;
+  background-color: #fff;
+  background-origin: content-box;
+
+}
+
+
+
+
+.introducao-icones {
+  position: absolute;
+  right: 10vw;
+}
+
+
+.introducao-icones .icone-1 {
+
+  margin-top: 180px;
+  position: absolute;
+  right: 180px;
+  z-index: 3;
+
+
+}
+
+.introducao-icones .icone-2 {
+
+  margin-top: 80px;
+  position: absolute;
+  right: 120px;
+  z-index: 2;
+
+
+}
+
+.introducao-icones .icone-3 {
+
+  margin-top: 0px;
+  position: absolute;
+  right: 50px;
+
+
+
+}
+
+.introducao-icones .icone-1,
+.introducao-icones .icone-2,
+.introducao-icones .icone-3 {
+  width: auto;
+}
+
+@media(max-width:1000px) {
+  .introducao-item-1 button {
+    margin-bottom: 260px;
+  }
+
+  .introducao-icones {
+    position: absolute;
+    left: 50%;
+    margin-left: 60px;
+    width: 100px;
+    margin-top: 120px;
+
+
+
+  }
+  .introducao-item-1 .pesquisar {
+
+    width: 300px;
+
+  }
+
+  .introducao-icones .icone-1 {
+
+    margin-top: 180px;
+    position: absolute;
+    right: 180px;
+    z-index: 3;
+
+
+  }
+
+  .introducao-icones .icone-2 {
+
+    margin-top: 100px;
+    position: absolute;
+    right: 120px;
+    z-index: 2;
+
+
+  }
+
+  .introducao-icones .icone-3 {
+
+    margin-top: 160px;
+    position: absolute;
+    right: 20px;
+
+
+
+  }
+
+
+
+}
+
+@media(max-width: 800px){
+  .introducao-icones {
+    position: absolute;
+    left: 50%;
+    margin-left: 60px;
+    width: 100px;
+    margin-top: 100px;
+
+
+
+  }
+}
+@media(max-width:349px){
+  .introducao-icones {
+    position: absolute;
+    left: 50%;
+    margin-left: 60px;
+    width: 100px;
+    margin-top: 120px;
+
+
+
+  }
+  .introducao-item-1 .pesquisar {
+
+    width: auto;
+
+  }
+}
+
+@media(max-width:320px) {
+  .introducao-item-1 button {
+    margin-bottom: 20px;
+  }
+  .introducao-icones {
+    display: none;
+  }
+
+}
