@@ -19,14 +19,14 @@
 }
 
 
-.logo{
+.logo {
   width: 320px;
 
 }
 
 
 .by img {
- width:100%;
+  width: 100%;
 }
 
 .liga-desliga_checkbox {
@@ -77,11 +77,13 @@
 .liga-desliga_checkbox:checked+.liga-desliga_botao::after {
   left: 1.025em;
 }
+
 /* Esconder liga/desliga */
-@media(max-width:370px){
-  .liga-desliga_botao, 
+@media(max-width:370px) {
+
+  .liga-desliga_botao,
   .liga-desliga_botao::before,
-.liga-desliga_botao::after {
+  .liga-desliga_botao::after {
     display: none;
   }
 }
@@ -100,8 +102,8 @@
 
 
 
-/* Menu Interativo */ 
-#header{
+/* Menu Interativo */
+#header {
   background: var(--cor-rc);
 }
 
@@ -110,10 +112,10 @@
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  
+
 }
 
-#menu a{
+#menu a {
   display: block;
   padding: 16px 30px;
 
@@ -121,32 +123,33 @@
 
 }
 
-#menu a:hover{
-  background:var(--cor-b);
+#menu a:hover {
+  background: var(--cor-b);
 
 }
 
 .lista-itens {
   display: flex;
+
 }
 
 
-.pesquisar input{
+.pesquisar input {
   border: 1px solid transparent;
   padding: 10px;
   border-radius: 10px;
   max-width: 120px;
 }
+
 .pesquisar input:focus {
   border: 1px solid #2AF598;
   outline: 0;
 
   box-shadow: 0px 2px 4px #06A9F1
-
 }
 
-#buscar{
-  background: url("../../assets/img/icons/buscar.svg") no-repeat right / 1.3em; 
+#buscar {
+  background: url("../../assets/img/icons/buscar.svg") no-repeat right / 1.3em;
   padding-left: 1.3em;
   background-color: #fff;
   background-origin: content-box;
@@ -156,18 +159,16 @@
 
 
 
-@media(max-width:700px){
-  .pixel .by{
+@media(max-width:700px) {
+  .pixel .by {
     display: none;
   }
- 
-  .pesquisar {
-    display: none;
-  }
+
+
 }
 
 /* Mobile */
-#btn-mobile{
+#btn-mobile {
   display: none;
   padding: 20px;
   position: relative;
@@ -175,44 +176,56 @@
 }
 
 
-@media(max-width:600px){
+@media(max-width:900px) {
   .logo img {
     width: 160px;
   }
+
   #btn-mobile {
     display: flex;
-    background:none;
+    background: none;
     border: none;
     align-items: center;
     gap: .5rem;
   }
+
   #menu {
-    background: var(--cor-rc);
+    background: var(--cor-b);
     width: 100%;
     height: calc(100vh - 77px);
     position: relative;
     height: 0;
-
+    border-bottom: 1px solid #000;
 
 
   }
+
+  .pesquisar {
+    display: none;
+  }
+
+
   #nav.active #menu {
     height: calc(100vh - 142px);
 
   }
+
   #nav.active #menu,
   #nav.active #menu .lista-itens {
     visibility: visible;
     overflow-y: auto;
+
   }
- 
-  #menu, #menu .lista-itens {
+
+  #menu,
+  #menu .lista-itens {
     display: block;
     position: absolute;
     left: 0;
     visibility: hidden;
     overflow-y: hidden;
     transition: .6s;
+
 
   }
 
@@ -224,7 +237,8 @@
     width: 20px;
     border-top: 2px solid;
   }
-  #hamburger::after, 
+
+  #hamburger::after,
   #hamburger::before {
     content: "";
     display: block;
@@ -234,25 +248,22 @@
     margin-top: 5px;
     transition: .3s;
     position: relative;
-  } 
+  }
 
   #nav.active #hamburger {
     border-top: transparent;
   }
+
   #nav.active #hamburger::before {
     transform: rotate(135deg);
   }
+
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
   }
-  
 
 
-  
+
+
 }
-
-
-
-
-

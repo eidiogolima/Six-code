@@ -74,7 +74,7 @@
 
 @media(max-width:600px) {
 
-  [data-dropdown].active {
+  [data-dropdown].active .dropdown-menu {
     display: block;
     width: 100%;
 
@@ -83,6 +83,7 @@
    margin-bottom: 200px;
 
   }
+  
 
   
 }
