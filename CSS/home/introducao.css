@@ -161,6 +161,12 @@
 
   }
 }
+@media(max-width:600px){
+  #introducao {
+    padding: 60px 0px;
+
+  }
+} 
 @media(max-width:349px){
   .introducao-icones {
     position: absolute;

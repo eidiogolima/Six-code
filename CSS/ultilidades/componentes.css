@@ -17,6 +17,8 @@
   animation: to-left 5s infinite alternate;
 }
 
+
+
 @keyframes to-left {
   0% {
    background-position-x: 0%;
