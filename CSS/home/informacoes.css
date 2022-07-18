@@ -1,0 +1,29 @@
+#informacoes {
+  padding: 100px 0;
+  background: var(--cor-rc);
+}
+
+.informacoes-conteudo {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+.informacoes-conteudo h1 {
+  margin-bottom: 32px;
+}
+.informacoes-conteudo h2 {
+  margin-bottom:20px ;
+}
+
+.informacoes-conteudo p {
+  max-width: 90ch;
+  margin-bottom: 32px;
+}
+
+@media(max-width:600px) {
+  #informacoes {
+    padding: 60px 0;
+  }
+  
+}
