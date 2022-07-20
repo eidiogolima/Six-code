@@ -27,6 +27,42 @@
   
 }
 
+@media(prefers-color-scheme: light){
+
+  :root{
+    --cor-0:#000000;
+    --cor-1:#111111;
+    --cor-2:#2E2E2E;
+    --cor-3:#404040;
+    --cor-4:#595959;
+    --cor-5:#717171;
+    --cor-6:#9C9C9C;
+    --cor-7:#B2B2B2;
+    --cor-8:#CCCCCC;
+    --cor-9:#DEDEDE;
+    --cor-10:#EDEDED;
+    --cor-11:#F7F7F7;
+    --cor-12:#F7F7F7;
+    
+  
+    /* --cor-p1:#FF8A00;
+    --cor-p2:#867261;
+    --cor-p3:#492F04;
+    ; */
+  
+    --cor-b:linear-gradient(104.65deg, var(--cor-8) 2.88%, var(--cor-12) 128.62%);
+    --cor-rc:linear-gradient(251.49deg, #667EEA 37.46%, #764BA2 91.43%);
+    --cor-pt:linear-gradient(98.21deg, #868F96 43.7%, #596164 78.61%);
+    --cor-a:linear-gradient(251.49deg, #2AF598 37.46%, #009EFD 91.43%);
+    --cor-r: #667EEA;
+    
+  }
+  
+}
+
+
+
+
 
 .cor-0 {
   color: var(--cor-0);
