@@ -19,9 +19,25 @@
 }
 
 
-.logo {
+.logo,
+.logo-light {
   width: 320px;
 
+}
+.logo-light,
+.by-light {
+  display: none;
+}
+
+body[data-theme="t-light"] .logo,
+body[data-theme="t-light"] .by{
+  display: none;
+}
+
+
+body[data-theme="t-light"] .logo-light,
+body[data-theme="t-light"] .by-light{
+  display: flex;
 }
 
 
@@ -178,7 +194,13 @@
   background-origin: content-box;
 
 }
+#buscar-header {
+  background: url("../../assets/img/icons/buscar.svg") no-repeat right / 1.3em;
+  padding-left: 1.3em;
+  background-color: #fff;
+  background-origin: content-box;
 
+}
 
 
 

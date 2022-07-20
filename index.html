@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Aprender a programar Nunca foi tão facil. Aprenda como criar seu site do 0 com desenvolvimento web.">
-  <meta name = "theme-color">
+  <meta name="theme-color">
   <title>Six Code | Aprenda a programar</title>
   <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
   <link rel="preload" href="./CSS/style.css" as="style">
@@ -22,17 +22,30 @@
   <div class="pixel">
     <div class="container">
       <div class="by">
-        <a href="https://eidiogolima.github.io/" alt="Portifólio do criador">
-          <img src="./assets/img/by.svg" width="136" height="21" alt=""></a>
+        <a href="https://eidiogolima.github.io/">
+          <img src="./assets/img/by.svg" width="136" height="21" alt="">
+        </a>
+          
+      </div>
+      <div class="by-light">
+        <a href="https://eidiogolima.github.io/">
+          <img src="./assets/img/by-light.svg" width="136" height="21" alt="">
+        </a>
+          
       </div>
 
       <div class="logo">
         <img src="./assets/img/logo.svg" width="236" height="49" alt="">
       </div>
 
+      <div class="logo-light">
+        <img src="./assets/img/logo-light.svg" width="236" height="49" alt="">
+      </div>
+
       <div class="tema">
+        
         <input type="checkbox" class="liga-desliga_checkbox" id="liga-desliga">
-        <label for="liga-desliga" class="liga-desliga_botao"></label>
+        <label for="liga-desliga" class="liga-desliga_botao" aria-label="Mudar tema"></label>
       </div>
     </div>
   </div>
@@ -69,11 +82,13 @@
         </ul>
 
 
+        <ul>
+          <li class="pesquisar">
+            <input type="search" id="buscar-header" placeholder="<Buscar.../>" />
+          </li>
+        </ul>
 
 
-        <li class="pesquisar">
-          <input type="search" id="buscar" placeholder="<Buscar.../>" />
-        </li>
 
 
       </nav>
@@ -97,7 +112,7 @@
 
           <div class="pesquisar">
             <input type="search" id="buscar" placeholder="<Tire sua dúvida..../>">
-            <label for="buscar" value = "Tire sua duvida"></label>
+            <label for="buscar" value="Tire sua duvida"></label>
           </div>
         </div>
 
@@ -146,7 +161,7 @@
           <h2 class="font-2-l-b cor-3">De onde vem as informações?</h2>
           <p class="font-2-s cor-4">Somos um projeto Open Source estamos dispostos aceitar sua contribuição, as informações presente no site vem de parte de colaboradores e grandes biblioteca de informações</p>
           <div>
-            <a href = "/">
+            <a href="/">
               <!-- Button disable -->
               <button class="botao-w">Em Breve</button>
             </a>
@@ -165,22 +180,24 @@
       <div class="footer-itens">
 
         <div class="footer-logo">
-          <picture>
-            <img src="./assets/img/logo.svg" width="236" height="49" alt="">
-          </picture>
+  
+            <img class = "logo" src="./assets/img/logo.svg" width="236" height="49" alt="">
+
+            <img class  = "logo-light" src="./assets/img/logo-light.svg" width="236" height="49" alt="">
+
           <ul>
-            
-              <!-- Button disable -->
-              <li class="cor-5 font-2-xs"><a href="/">Seja um colaborador</a></li>
-            
-            
-              <!-- Button disable -->
-              <li class="cor-5 font-2-xs"><a href="/">Quem Somos?</a></li>
-            
-            
-              <!-- Button disable -->
-              <li class="cor-5 font-2-xs"><a href="/">Em breve</a></li>
-            
+
+            <!-- Button disable -->
+            <li class="cor-5 font-2-xs"><a href="/">Seja um colaborador</a></li>
+
+
+            <!-- Button disable -->
+            <li class="cor-5 font-2-xs"><a href="/">Quem Somos?</a></li>
+
+
+            <!-- Button disable -->
+            <li class="cor-5 font-2-xs"><a href="/">Em breve</a></li>
+
           </ul>
         </div>
 
@@ -188,14 +205,14 @@
           <h1 class="cor-3 font-1-l">Tem Dúvidas ?</h1>
 
           <ul>
-            
-              <!-- Button disable -->
-              <li class="cor-5 font-2-xs"><a href="/">sixcode@contato.com.br</a></li>
-            
-            
-              <!-- Button disable -->
-              <li class="cor-5 font-2-xs"><a href="/">+55 (11) 99999-9999</a></li>
-            
+
+            <!-- Button disable -->
+            <li class="cor-5 font-2-xs"><a href="/">sixcode@contato.com.br</a></li>
+
+
+            <!-- Button disable -->
+            <li class="cor-5 font-2-xs"><a href="/">+55 (11) 99999-9999</a></li>
+
 
           </ul>
         </div>
@@ -203,30 +220,30 @@
         <div class="footer-menu">
           <h1 class="cor-3 font-1-l">Menu</h1>
           <ul class="lista-menu">
-            
-              <li class="cor-5 font-2-xs"><a href="#introducao">Home</a></li>
-            
-            
-              <li class="cor-5 font-2-xs"><a href="#footer">Suporte</a></li>
-            
-            
-              <li class="cor-5 font-2-xs"><a href="#introducao">Aprender</a></li>
-            
+
+            <li class="cor-5 font-2-xs"><a href="#introducao">Home</a></li>
+
+
+            <li class="cor-5 font-2-xs"><a href="#footer">Suporte</a></li>
+
+
+            <li class="cor-5 font-2-xs"><a href="#introducao">Aprender</a></li>
+
           </ul>
         </div>
 
         <div class="footer-tecnologias">
           <h1 class="cor-3 font-1-l">Tecnologias</h1>
           <ul class="lista-tecnologias">
-            
-              <li class="cor-5 font-2-xs"><a href="#referencia">HTML</a></li>
-            
-            
-              <li class="cor-5 font-2-xs"><a href="#referencia">CSS</a></li>
-            
-            
-              <li class="cor-5 font-2-xs"><a href="#referencia">JAVASCRIPT</a></li>
-            
+
+            <li class="cor-5 font-2-xs"><a href="#referencia">HTML</a></li>
+
+
+            <li class="cor-5 font-2-xs"><a href="#referencia">CSS</a></li>
+
+
+            <li class="cor-5 font-2-xs"><a href="#referencia">JAVASCRIPT</a></li>
+
           </ul>
         </div>
 
