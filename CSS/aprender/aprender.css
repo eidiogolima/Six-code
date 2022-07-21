@@ -1,0 +1,20 @@
+#aprender {
+  padding: 100px 0;
+  background: var(--cor-b);
+}
+
+#interesse {
+}
+#interesse h1{
+  margin-bottom: 32px;
+  max-width: 28ch;
+  text-align: center;
+
+}
+
+#interesse h2 {
+  margin-bottom: 20px;
+  max-width: 60ch;
+  text-align: left;
+
+}

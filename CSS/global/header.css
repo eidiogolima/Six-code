@@ -41,7 +41,8 @@ body[data-theme="t-light"] .by-light{
 }
 
 
-.by img {
+.by img,
+.by-light img {
   width: 100%;
 }
 
