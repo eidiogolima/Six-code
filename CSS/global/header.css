@@ -206,7 +206,8 @@ body[data-theme="t-light"] .by-light{
 
 
 @media(max-width:700px) {
-  .pixel .by {
+  .pixel .by,
+  .by-light {
     display: none;
   }
 
@@ -223,7 +224,8 @@ body[data-theme="t-light"] .by-light{
 
 
 @media(max-width:900px) {
-  .logo img {
+  .logo img,
+  .logo-light img{
     width: 160px;
   }
 
@@ -315,7 +317,8 @@ body[data-theme="t-light"] .by-light{
 }
 
 @media(max-width:320px) {
-  .logo img {
+  .logo img,
+  .logo-light img {
     width: 120px;
   }
 }
