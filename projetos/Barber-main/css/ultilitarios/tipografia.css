@@ -1,0 +1,33 @@
+.font-1-xxl {
+  font: 500 9rem "Livvic"
+}
+
+.font-1-xl {
+  font: 500 4.5rem "Livvic";
+}
+
+.font-1-l-b{
+  font: 600 2.25rem "Livvic";
+}
+
+.font-2-l,
+.font-2-l-b {
+  font: 500 2.255rem "Sarabun";
+}
+
+.font-2-l-b{
+  font-weight:600;
+}
+
+.font-2-s-b{
+  font: 500 1.125rem "Sarabun";
+}
+.font-2-xs-b{
+  font: 600 1.125rem "Sarabun";
+}
+
+@media(max-width:270px){
+  .font-2-s-b{
+    font-size: 0.9rem;
+  }
+}

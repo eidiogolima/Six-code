@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    color: white;
+}
+
+header{
+    
+    background: linear-gradient(90deg, 
+    rgba(131,58,180,1) 0%,
+    rgba(253,29,29,1) 50%, 
+    rgba(252,176,69,1) 100%);
+
+    padding: 30px;
+    color: white;
+}
+
+i{
+    padding: 5px;
+    background-color:rgba(156, 156, 156, 0.555)
+}
+input{
+    font-size: 1.2rem;
+    border-width: 0;
+}
+body{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(90deg, 
+    rgb(58, 86, 180) 0%,
+    rgb(29, 190, 253) 50%, 
+    rgb(194, 69, 252) 100%);
+
+    gap:0.5em;
+    
+    
+}
