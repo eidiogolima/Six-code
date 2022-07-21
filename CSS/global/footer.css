@@ -21,11 +21,13 @@
 .footer-itens .footer-logo img {
   margin-bottom: 20px;
 }
-.footer-itens div ul li {
+.footer-itens ul li {
 
 }
 
-.footer-itens div ul a {
+
+.footer-itens div ul li a,
+.footer-itens div ul li{
   padding: 10px 8px;
 }
 

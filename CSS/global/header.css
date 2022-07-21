@@ -207,7 +207,7 @@ body[data-theme="t-light"] .by-light{
 
 @media(max-width:700px) {
   .pixel .by,
-  .by-light {
+  body[data-theme="t-light"] .by-light{
     display: none;
   }
 
@@ -235,6 +235,7 @@ body[data-theme="t-light"] .by-light{
     border: none;
     align-items: center;
     gap: .5rem;
+    color: #Fff;
   }
 
   #menu {
