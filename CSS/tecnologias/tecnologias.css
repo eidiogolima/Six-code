@@ -20,6 +20,7 @@
 
 }
 
+
 .tecnologias-nav::-webkit-scrollbar {
   width: 12px;       
 }
@@ -48,9 +49,9 @@
 
 
 .lista-tecnologias li.item {
-  background: var(--cor-rc);
+  background: var(--cor-10);
   padding: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
 
 }
 

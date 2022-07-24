@@ -174,7 +174,8 @@ body[data-theme="t-light"] .by-light{
 }
 
 .lista-itens li {
-  color: #fff;
+  color: var(--cor-1);
+
 }
 
 
@@ -270,7 +271,33 @@ body[data-theme="t-light"] .by-light{
 
   }
 
-  #menu,
+  #menu a{
+
+    width: auto;
+    display:flex;
+    justify-content: center;
+    border-radius: 1px solid #000;
+
+  }
+
+  #menu .lista-itens {
+    display: block;
+  }
+
+  #menu .lista-itens li {
+    border-bottom: 1px solid rgba(0,0,0, 0.25);
+  }
+
+  #menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: .6s;
+  }
+
+  /* #menu,
   #menu .lista-itens {
     display: block;
     position: absolute;
@@ -280,7 +307,7 @@ body[data-theme="t-light"] .by-light{
     transition: .6s;
 
 
-  }
+  } */
 
 
   /* Hamburger Icon */
