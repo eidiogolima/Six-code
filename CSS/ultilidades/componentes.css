@@ -1,2 +1,9 @@
+.code {
+  background:var(--cor-11);
+  max-width: 900px; 
+  color: var(--cor-1);
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
 
-
+}

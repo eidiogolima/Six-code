@@ -5,6 +5,20 @@ boby {
   box-sizing: border-box;
 
 }
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--cor-a);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor-10);
+  border-radius: 0px;
+  border: 3px solid var(--cor-rc); 
+}
 ul, a, li{
   text-decoration: none;
   list-style: none;

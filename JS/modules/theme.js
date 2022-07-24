@@ -1,7 +1,5 @@
 export default function theme() {
 
-
-
   const check = document.querySelector('.liga-desliga_checkbox');
 
   const themes = {

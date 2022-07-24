@@ -1,0 +1,197 @@
+#tecnologias {
+  padding: 100px 0;
+  background: var(--cor-b);
+}
+
+.tecnologias-grid {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  gap: 20px;
+}
+
+.tecnologias-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: start;
+  overflow-y: scroll;
+  height: 600px;
+  border-radius:10px ;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+
+}
+
+.tecnologias-nav::-webkit-scrollbar {
+  width: 12px;       
+}
+
+.tecnologias-nav::-webkit-scrollbar-track {
+  background: var(--cor-11);
+}
+
+.tecnologias-nav::-webkit-scrollbar-thumb {
+  background-color: var(--cor-r);
+
+  border-radius: 10px;      
+
+  border: 3px solid var(--cor-11);
+}
+
+.lista-tecnologias li {
+  background: var(--cor-b);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.lista-tecnologias li:hover {
+  border-right: 10px solid #2AF598;
+}
+
+
+.lista-tecnologias li.item {
+  background: var(--cor-rc);
+  padding: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+
+}
+
+.lista-tecnologias li.item.ativo {
+  display: flex;
+
+}
+
+.lista-tecnologias ul.item {
+  display: none;
+
+}
+
+.lista-tecnologias ul.item.ativo {
+  display: block;
+
+}
+
+
+
+
+.tecnologias-exemplos{
+  text-align: center;
+}
+
+.tecnologias-exemplos .item-tecnologias{
+  margin-bottom: 32px;
+  
+}
+
+.tecnologias-exemplos .conteudo .tecnologias-conteudo{
+  border-radius: 0px 0px 10px 10px ;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+}
+
+.tecnologias-exemplos .item-tecnologias h1{
+  margin-bottom: 20px;
+  
+}
+
+
+
+.header-tecnologias {
+  background: var(--cor-pt);
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px  ;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+
+
+}
+.header-tecnologias ~ div {
+  padding-top: 32px;
+  background: var(--cor-10);
+  padding: 60px 20px;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+
+.header-tecnologias ~ div::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.header-tecnologias ~ div::-webkit-scrollbar-track {
+  background: var(--cor-11);        /* color of the tracking area */
+}
+
+.header-tecnologias ~ div::-webkit-scrollbar-thumb {
+  background-color: var(--cor-r);    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+  border: 3px solid var(--cor-11);  /* creates padding around scroll thumb */
+}
+
+.header-tecnologias ~ div h2 {
+  text-align: left;
+
+  margin-bottom:32px;
+}
+
+
+.header-tecnologias ~ div h3 {
+  text-align: left;
+
+  margin-bottom:20px;
+  color: var(--cor-1);
+}
+
+.header-tecnologias ~ div .imagem {
+  justify-content: left;
+  display: flex;
+  margin:  32px 0px;
+ 
+}
+
+.header-tecnologias ~ div p {
+  max-width: 100ch;
+  margin:  0 10px ;
+  margin-bottom:  32px ;
+  text-align: left;
+  color: var(--cor-4);
+}
+
+.hidden{
+  display: none;
+}
+
+.visible {
+  display: grid;
+}
+
+@media(max-width:700px){
+  .tecnologias-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .tecnologias-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+    overflow-y: scroll;
+    height: 40vh;
+    border-radius:10px ;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+  
+  }
+
+  .tecnologias-nav::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .tecnologias-nav::-webkit-scrollbar-track {
+    background: var(--cor-11);        /* color of the tracking area */
+  }
+  
+  .tecnologias-nav::-webkit-scrollbar-thumb {
+    background-color: var(--cor-r);    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--cor-11);  /* creates padding around scroll thumb */
+  }
+
+}
+

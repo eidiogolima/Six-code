@@ -164,13 +164,17 @@ body[data-theme="t-light"] .by-light{
 }
 
 #menu a:hover {
-  background: var(--cor-b);
+  background: #282828;
 
 }
 
 .lista-itens {
   display: flex;
 
+}
+
+.lista-itens li {
+  color: #fff;
 }
 
 
