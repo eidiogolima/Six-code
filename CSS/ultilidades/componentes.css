@@ -5,5 +5,38 @@
   margin: 0 auto;
   text-align: left;
   padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+.code p span  {
+  display: block;
+
+}
+
+.code .tag-p{
+ margin-left: 40px;
+
+}
+
+
+
+.code p .tag-1 {
+  margin-left: 5px;
+
+  margin-bottom: 4px ;
+  margin-top: 4px ;
+}
+.code p .tag-2 {
+  margin-left: 10px;
+  margin-bottom: 4px ;
+  margin-top: 4px ;
+
+}
+.code p .tag-3{
+  margin-left: 20px;
+  margin-bottom: 4px ;
+  margin-top: 4px ;
 
 }
