@@ -1,0 +1,13 @@
+*, div,dd, span{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

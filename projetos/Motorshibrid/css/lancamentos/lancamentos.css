@@ -1,0 +1,143 @@
+.lancamentos-itens {
+  display: flex;
+  margin-bottom:40px;
+  justify-content: space-between;
+
+}
+
+.lancamentos-bg {
+  background: var(--cor-1);
+  padding: 40px 0 ;
+}
+
+.flex {
+  display: flex;
+  margin: 0 20px;
+  gap: 20px;
+}
+
+.lancamentos-itens h1 {
+  margin-left: 20px;
+  top: 140px;
+  position: relative;
+
+}
+
+
+.lancamentos-video-bg {
+  padding: 100px;
+  background: linear-gradient(to right, var(--cor-1) 0% 40%, var(--cor-11) 40% 80%);
+}
+
+.lancamentos-video-bg video {
+  width: 100%;
+  padding: 0 0px;
+}
+
+.btn-lancamentos {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-content: flex-start;
+  margin-left: auto;
+  margin-right: 20px;
+  top: 40px;
+  width: 20vw;
+
+}
+
+@media(max-width: 1100px) {
+  .lancamentos-itens {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 40px;
+   
+  
+  }
+  .lancamentos-itens h1 {
+
+
+    position: static;
+  
+  }
+  .lancamentos-video-bg video {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .lancamentos-video-bg {
+    padding: 20px;
+    padding-bottom:100px;
+    background: linear-gradient(to bottom, var(--cor-1) 0% 40%, var(--cor-11) 40% 80%);
+  }
+
+  .btn-lancamentos {
+
+
+
+    width: 40%;
+    bottom:80px;
+  }
+  
+}
+
+@media(max-width:750px){
+  .flex h3 {
+    font-size: 3rem;
+  }
+  .flex h3 span {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 540px) {
+  .lancamentos-bg {
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .btn-lancamentos {
+    width: 62%;
+    top: 20px;
+    margin-right: 10px;
+  }
+  .flex {
+    display: grid;
+  }
+  .flex h3 {
+    line-height: .5;
+  
+  }
+
+  .lancamentos-itens h1 {
+
+
+   margin-bottom: 20px;
+  
+  }
+  .lancamentos-video-bg {
+    padding: 0 0px;
+    padding-bottom:40px;
+    background: var(--cor-1);
+
+  }
+
+  .lancamentos-bg .container {
+    padding: 0;
+  }
+  .lancamentos-video-bg video {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .btn-lancamentos {
+    border: 1px solid #000;
+    color: var(--cor-9);
+  }
+}
+ 
+
+@media(max-width:350px){
+  .btn-lancamentos {
+    width: 80%;
+    top: 20px;
+    margin-right: 10px;
+  }
+}

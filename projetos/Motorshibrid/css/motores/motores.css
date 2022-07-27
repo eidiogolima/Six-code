@@ -1,0 +1,233 @@
+.motores-main-bg .container{
+  padding: 40px 20px;
+}
+.motores-main-bg-hub {
+  background-color: var(--cor-10);
+}
+
+.motores-main-itens h1 {
+
+  margin-bottom: 16px;
+  
+}
+.h2-linha-motores {
+  margin-bottom: 20px;
+}
+.h2-linha-motores h2{
+  font-style: italic;
+}
+.h2-linha-motores .spark::before{
+  content: "";
+  width: 6px;
+  height: 30px;
+  bottom: 4px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  background-color: var(--cor-p1);
+}
+
+.h2-linha-motores .hub::before {
+  content: "";
+  width: 6px;
+  height: 30px;
+  bottom: 4px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  background-color: var(--cor-a1);
+}
+
+.informacao-motores-botao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.informacao-motores {
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-2);
+  padding: 20px 10px;
+  border-radius: 4px;
+  gap: 4px;
+
+}
+
+
+.motores-main-itens p {
+  padding-left: 20px;
+  padding-bottom: 32px;
+}
+
+
+.motores-main-linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap:20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+
+.motores-main-linha .p{
+  margin-left: 16px ;
+}
+.motores-main-linha h3{
+  margin-left: 10px;
+  
+}
+
+
+
+.item-linha h3 {
+  margin-bottom:20px;
+}
+.item-linha p{
+  max-width: 70ch;
+
+  margin-bottom: 16px;;
+}
+
+.informacao-motores img  {
+  width: 14px;
+}
+
+.como-funciona h4{
+  margin-bottom: 16px;
+}
+.como-funciona p{
+  background-color: var(--cor-10);
+  padding: 20px;
+  border-radius: 4px;
+}
+.motor-imagem {
+
+  grid-column:1/-1;
+  grid-row: 2;
+
+}
+.motor-imagem img {
+  width: 100%;
+}
+
+.linha {
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-2);
+  margin-bottom: 40px;
+}
+
+@media(max-width:1000px){
+  .motores-main-linha {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+    justify-content: center;
+  }
+}
+@media(max-width:600px){
+  
+  .h2-linha-motores .spark::before{
+    width: 4px;
+    height: 20px;
+    bottom: 4px;
+    margin-right: 8px;
+  }
+  .h2-linha-motores .hub::before{
+    width: 4px;
+    height: 20px;
+    bottom: 4px;
+    margin-right: 8px;
+  }
+  .motor-imagem {
+
+    grid-column:1/-1;
+    grid-row: 2;
+  
+  }
+  
+  .informacao-motores {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-2);
+    padding: 12px 16px;
+    border-radius: 4px;
+    gap: 4px;
+  
+  }
+  
+  
+}
+
+
+/* Linha hub */
+
+.linha-hub-main{
+  background-color: var(--cor-10);
+  padding:40px 20px;
+  margin: 0;
+}
+
+.linha-hub-main .como-funciona p{
+  background-color: var(--cor-9);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.linha-hub-main .linha {
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-9);
+  margin-bottom: 40px;
+}
+
+.linha-hub-main .informacao-motores {
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-9);
+  padding: 20px 10px;
+  border-radius: 4px;
+  gap: 4px;
+
+}
+.linha-hub-main .informacao-motores span{
+  color: var(--cor-6);
+}
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+  .h2-linha-motores .hub::before,
+  .h2-linha-motores .spark::before {
+    height: 16px;
+  }
+}
+
+@media(max-width:450px){
+  .informacao-motores span {
+    font-size: .8rem;
+  
+  }
+  .informacao-motores {
+    background-color: var(--cor-0);
+
+  }
+  .linha-hub-main .informacao-motores{
+    background-color:var(--cor-10);
+  }
+
+} 
+
+@media(max-width:320px){
+  .informacao-motores,
+  .linha-hub-main .informacao-motores {
+    display: none;
+
+  }
+
+}
