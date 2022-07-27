@@ -9,43 +9,148 @@
 
 <url>
   <loc>https://sixcode.com.br/</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://sixcode.com.br/index.html</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sixcode.com.br/tecnologias/html.html</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sixcode.com.br/tecnologias/css.html</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sixcode.com.br/tecnologias/js.html</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/html/projetos.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sixcode.com.br/html/aprender.html</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sixcode.com.br/tecnologias/js</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sixcode.com.br/aprender/aprender.html</loc>
-  <lastmod>2022-07-27T01:15:33+00:00</lastmod>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/home</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/aprender/aprender.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/home.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/quem-somos.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/seguros.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/lancamentos.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/motores.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/veiculos.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/sustentabilidade.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/orcamento.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/seguros/silver.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/seguros/gold.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/orcamento.html?tipo=motores&amp;produto=six-eletric</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/orcamento.html?tipo=motores&amp;produto=cycleflex</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/orcamento.html?tipo=motores&amp;produto=planehub</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/orcamento.html?tipo=motores&amp;produto=helihub</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/veiculos/g1000.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/veiculos/rain.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/veiculos/hibrid-spark-x.html</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/orcamento.html?tipo=seguro&amp;produto=silver</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://sixcode.com.br/projetos/motorshibrid/html/orcamento.html?tipo=seguro&amp;produto=gold</loc>
+  <lastmod>2022-07-27T15:57:31+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 
 
