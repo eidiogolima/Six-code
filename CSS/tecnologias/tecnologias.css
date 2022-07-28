@@ -2,6 +2,13 @@
   padding: 100px 0;
   background: var(--cor-b);
 }
+.conteudo{
+  overflow-y: scroll;
+  padding-right: 20px;
+  max-height: max-content;
+  height: 80vh;
+
+}
 
 .tecnologias-grid {
   display: grid;
@@ -19,7 +26,25 @@
   border-radius:10px;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
   /* align-self: center; */
+  position: relative;
+}
 
+
+
+.conteudo::-webkit-scrollbar {
+  width: 12px;       
+}
+
+.conteudo::-webkit-scrollbar-track {
+  background: var(--cor-11);
+}
+
+.conteudo::-webkit-scrollbar-thumb {
+  background-color: var(--cor-r);
+
+  border-radius: 10px;      
+
+  border: 3px solid var(--cor-11);
 }
 
 
@@ -87,6 +112,8 @@
 .tecnologias-exemplos .conteudo .tecnologias-conteudo{
   border-radius: 0px 0px 10px 10px ;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+  
+
 }
 
 .tecnologias-exemplos .item-tecnologias h1{
@@ -108,8 +135,8 @@
   padding-top: 32px;
   background: var(--cor-10);
   padding: 60px 20px;
-  overflow-y: scroll;
-  height: 100vh;
+  
+
 }
 
 
