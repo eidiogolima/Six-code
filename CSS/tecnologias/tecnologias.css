@@ -185,12 +185,12 @@
  
 }
 
-.header-tecnologias ~ div p {
+.header-tecnologias ~ div > p{
   max-width: 100ch;
   margin:  0 10px ;
   margin-bottom:  32px ;
   text-align: left;
-  color: var(--cor-4);
+  color: var(--cor-2);
 }
 
 .hidden{

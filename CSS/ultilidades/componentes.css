@@ -10,33 +10,40 @@
 }
 
 
-.code p span  {
-
+.code {
   display: block;
 }
 
-.code .tag-p{
- margin-left: 40px;
+.tag {
+  color: var(--cor-v);
 
 }
 
-
-
-.code p .tag-1 {
-  margin-left: 5px;
-
-  margin-bottom: 4px ;
-  margin-top: 4px ;
+.tag-r {
+  color: var(--cor-r);
 }
-.code p .tag-2 {
-  margin-left: 10px;
-  margin-bottom: 4px ;
-  margin-top: 4px ;
 
+.tag-c{
+  margin-left: 32px;
+  margin-bottom: 0px;
 }
-.code p .tag-3{
-  margin-left: 20px;
-  margin-bottom: 4px ;
-  margin-top: 4px ;
+
+.tag-especial{
+  display: block;
 
 }
+
+.tag-especial.e-1 {
+  margin-left: 8px;
+}
+.tag-especial.e-2 {
+  margin-left: 12px;
+}
+.tag-especial.e-3 {
+  margin-left: 16px;
+}
+
+.nota {
+  color: var(--cor-4)!important;
+}
+
