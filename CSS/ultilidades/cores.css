@@ -24,7 +24,8 @@
   --cor-pt: linear-gradient(98.21deg, #868F96 43.7%, #596164 78.61%);
   --cor-a: linear-gradient(251.49deg, #2AF598 37.46%, #009EFD 91.43%);
   --cor-r: #667EEA;
-  --cor-v: #2AF598;
+  --cor-v: #cb909a;
+  --cor-css: #accc4d;
 
 }
 
@@ -151,4 +152,10 @@
 }
 .cor-r {
   color: #667EEA;
+}
+.cor-c {
+  color: var(--cor-c);
+}
+.cor-css {
+  color:var(--cor-css);
 }

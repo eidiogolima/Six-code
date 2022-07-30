@@ -47,3 +47,6 @@
   color: var(--cor-4)!important;
 }
 
+.espaco {
+  margin-bottom: 32px;
+}

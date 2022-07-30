@@ -127,9 +127,6 @@
 
       <div class="container">
 
-
-
-
         <div class="tecnologias-grid">
 
           <nav class="tecnologias-nav">
@@ -149,8 +146,8 @@
               <li class="item-1 font-2-s-b cor-2">HTML</li>
               <ul class="item">
                 <li class="font-2-s-b cor-2 item">conhecendo</li>
-                <li class="font-2-s-b cor-2 item">tag</li>
                 <li class="font-2-s-b cor-2 item">semantica</li>
+                <li class="font-2-s-b cor-2 item">tag</li>
 
               </ul>
 
@@ -162,8 +159,13 @@
 
               <li class="item-1 font-2-s-b cor-2">JavaScript</li>
               <ul class="item">
-                <li class="font-2-s-b cor-2 item">evento</li>
-                <li class="font-2-s-b cor-2 item">funcoes</li>
+                <li class="font-2-s-b cor-2 item">introdução</li>
+                <li class="font-2-s-b cor-2 item">testando-ambiente</li>
+                <li class="font-2-s-b cor-2 item">lógica</li>
+                <li class="font-2-s-b cor-2 item">métodos</li>
+                <li class="font-2-s-b cor-2 item">propriedades</li>
+                <li class="font-2-s-b cor-2 item">variáveis</li>
+                <li class="font-2-s-b cor-2 item">eventos</li>
               </ul>
 
 
@@ -656,90 +658,326 @@
               </div>
             </div>
 
+
+
+
             <div id="estilizando" class="hidden conteudo">
 
               <header class="item-tecnologias">
-                <h1 class="font-1-xl cor-1">Html</h1>
+                <h1 class="font-1-xl cor-1">CSS</h1>
 
                 <span class="font-2-s cor-2">
-                  Dica: Não copie e cole, mesmo que tenha essa opção, se estiver iniciando escreva em tempo real, é praticando que a gente aprende ;)
+                  Copie tudo que for ensinado em tempo real no Visual Studio Code, só é possivel aprender com a prática ;)
                 </span>
 
               </header>
 
               <header class="header-tecnologias">
-                <h2 class="font-1-l cor-1">Conhecendo HTML</h2>
+                <h2 class="font-1-l cor-1">Conhecendo css</h2>
               </header>
 
               <div class="tecnologias-conteudo">
-                <h2 class="font-1-l cor-1">1-3 Semântica</h2>
-                <p class="font-2-s cor-2">Semantica é o sentido do conteudo nesse caso a semantica é usada para dar sentido para o conteudo html de modo geral.</p>
-
-                <p class="font-2-s cor-2">Exemplo: quando queremos indicar um titulo usamos a tag <span class="tag-1 cor-r">&lt;h1&gt; </span><span class="tag-1 cor-r">&lt;/h1&gt; </span>, já quando queremos um parágrafo usamos a tag <span class="tag-1 cor-r">&lt;p&gt; </span>, mas e se quisermos coolcar uma imagem ? é usada a tag <span class="tag-1 cor-r">&lt;img&gt; </span> e se quisermos um botao ? usamos a tag <span class="tag-1 cor-r">&lt;button&gt; </span> <span class="tag-1 cor-r">&lt;/button&gt; </span>.</p>
-
-                <h3 class="font-1-l">Qual é adifrença de usar a tag correta para o elemento correto ?</h3>
-
-                <h3 class="font-1-l">Maneira Correta:</h3>
-
-                <div class="code code-s-b">
-
-                  <p class="font-2-s cor-2">
-
-                    <span class="tag-2 cor-r">&lt;h1&gt; </span>
-                    <span class="tag-p">A busca pelos Golfinhos</span>
-                    <span class="tag-2 cor-r">&lt;/h1&gt; </span>
-
-                    <span class="tag-2 cor-r">&lt;p&gt; </span>
-                    <span class="tag-p">Para iniciarmos a busca é preciso entender o contexto, clique no botão para
-                      saber mais</span>
-                    <span class="tag-2 cor-r">&lt;/p&gt; </span>
+                <h2 class="font-1-l cor-1">1-1 Estilizando conteúdo</h2>
 
 
-                    <span class="tag-2 cor-r">&lt;button&gt; </span>
-                    <span class="tag-p">SAIBA MAIS</span>
-                    <span class="tag-2 cor-r">&lt;/button&gt; </span>
+                <p class="font-2-s cor-2">Agora que você já sabe o que é html, vamos aprender a como estilzar o conteudo que você já criou nos modulos passado. Ainda não criou nada ? como assim ?! volte e repita tudo linha por linha em seu computador ! o aprendizado só é possivel com a prática.</p>
 
-                  </p>
+                <p class="font-2-s nota">Se você já fez tudo vamos aprender a estilizar o conteudo :).</p>
 
-                </div>
+                <p class="font-2-s">O CSS é usado para a parte visual do nosso site, como vimos até aqui.Até o momento apenas escrevemos textos pretos em um fundo branco mas é agora que o jogo muda e começamos a estlizar o nosso site.</p>
 
-                <h3 class="font-1-l">Maneira Errada:</h3>
+                <p class="font-2-s">O primeiro passo é criar a tag <span class="tag">&lt;style&gt;</span> dentro de nossa tag <span class="tag">&lt;head&gt;</span> no html :</p>
+
+                <h3 class="font-1-l">Exemplo</h3>
 
                 <div class="code code-s-b">
 
-                  <p class="font-2-s cor-2">
+                  <div class="font-2-s cor-2">
 
-                    <span class="tag-2 cor-r">&lt;p&gt; </span>
-                    <span class="tag-p">A busca pelos Golfinhos</span>
-                    <span class="tag-2 cor-r">&lt;/p&gt; </span>
+                    <span class="tag-2 tag-especial cor-v">&lt;head&gt;</span>
+                    <p><span class="tag-c cor-v">&lt;tittle&gt;</span>Golfinhos<span class=" cor-v">&lt;/tittle&gt;</span>
+                    </p>
+                    <span class="tag-especial e-2 cor-r espaco">&lt;style&gt; </span>
+                    <span class="tag-especial e-2 cor-r">&lt;/style&gt; </span>
+                    <span class="tag-especial cor-v">&lt;head&gt;</span>
 
-                    <span class="tag-2 cor-r">&lt;p&gt; </span>
-                    <span class="tag-p">Para iniciarmos a busca é preciso entender o contexto, clique no botão para
-                      saber mais</span>
-                    <span class="tag-2 cor-r">&lt;/p&gt; </span>
-
-
-                    <span class="tag-2 cor-r">&lt;p&gt; </span>
-                    <span class="tag-p">SAIBA MAIS</span>
-                    <span class="tag-2 cor-r">&lt;/p&gt; </span>
-
-                  </p>
+                  </div>
 
                 </div>
+
+                <p class="font-2-s">Após feito isso precisamos achar uma maneira para pegar o elemento html e colocar dentro so CSS para estiliza-lo.</p>
+
+                <p class=" font-2-s">Nesse exemplo iremos pegar o nome da tag e iremos adicionar propriedades <span class="cor-v"> CSS </span>as propriedades são usadas para definir qual estilo será ultilizado. Nesse exemplos iremos usar a propriedade <span class="cor-v">COLOR </span>que server para mudar a cor do elemento e <span class="cor-v"> BACKGROUND-COLOR</span> que serve para você definir a cor de fundo do site</p>
+
+                <p class="font-2-s">Na frente das propriedades é colocado “:” para definir a cor e após a cor é colocada “;” que é usada fechar igual seria no html com tags abrir e fechar. </p>
+
+                <p class="font-2-s">Antes da propriedade é adicionada as chaves “{}” para ser possivel coolocar as propriedades </p>
+
+                <h3 class="font-1-l">Adicionando propriedades</h3>
+
+                <div class="code code-s-b">
+
+                  <div class="font-2-s cor-2">
+
+                    <span class="tag-2 tag-especial cor-v">&lt;head&gt;</span>
+                    <p><span class="tag-c cor-v">&lt;tittle&gt;</span>Golfinhos<span class=" cor-v">&lt;/tittle&gt;</span>
+                    </p>
+                    <span class="tag-especial e-3 cor-css espaco">&lt;style&gt; </span>
+
+                    <div>
+                      <p class="tag-especial e-2"><span class="  cor-css">body </span>{</p>
+                      <p class="tag-c tag-especial">background-color: beige ;</p>
+                      <span class="tag-especial e-3">}</span>
+                    </div>
+
+                    <div>
+                      <p class="tag-especial e-2"><span class="  cor-css">h1 </span>{</p>
+                      <p class="tag-c tag-especial">color: pink ;</p>
+                      <span class="tag-especial e-3 ">}</span>
+                    </div>
+
+
+                    <div>
+                      <p class="tag-especial e-2"><span class="  cor-css">p </span>{</p>
+                      <p class="tag-c tag-especial">color: blue ;</p>
+                      <span class="tag-especial e-3 espaco">}</span>
+                    </div>
+
+
+                    <span class="tag-especial e-2 cor-css">&lt;/style&gt; </span>
+                    <span class="tag-especial cor-v">&lt;head&gt;</span>
+
+                  </div>
+
+                </div>
+
+                <h3 class="font-1-l">Resultado</h3>
+
+
+
+                <div class="imagem">
+                  <img src="../assets/img/imgs/estilizando-css.png" alt="">
+                </div>
+
+
+              </div>
+            </div>
+
+
+            <div id="propriedades" class="hidden conteudo">
+
+              <header class="item-tecnologias">
+                <h1 class="font-1-xl cor-1">CSS</h1>
+
+                <span class="font-2-s cor-2">
+                  Copie tudo que for ensinado em tempo real no Visual Studio Code, só é possivel aprender com a prática ;)
+                </span>
+
+              </header>
+
+              <header class="header-tecnologias">
+                <h2 class="font-1-l cor-1">Propiedades css</h2>
+              </header>
+
+              <div class="tecnologias-conteudo">
+                <h2 class="font-1-l cor-1">1-2 Propriedades CSS</h2>
+
+
+                <p class="font-2-s cor-2">Pode não ter ficado claro ainda para você o que são propriedades, mas são basicamente usadas palavras já definidas para modificar algo em seu site. Esses são exemplos de propriedades no CSS: </p>
+
+
+
+                <div class="code code-s-b">
+
+                  <div class="font-2-s">
+
+
+
+                    <div>
+                      <p class="tag-especial e-2"><span class="  cor-css">h1 </span>{</p>
+                      <p class="tag-c tag-especial"> <span class="cor-v">font-size</span> : 40px ;</p>
+                      <p class="tag-c tag-especial"><span class="cor-v">text-align</span>: center ;</p>
+                      <p class="tag-c tag-especial"><span class="cor-v">color</span>: blue ;</p>
+                      <span class="tag-especial e-3 ">}</span>
+                    </div>
+
+
+
+                  </div>
+
+                </div>
+
+                <p class="font-2-s">No exmplo acima a palavra <span class="cor-v"> font-size </span> é uma propriedade para definir o tamanho do texto, e a media usada é <span class="cor-v">pixels</span>.</p>
+
+                <p class="font-2-s"><span class="cor-v">color</span>: é uma propriedade para definir a cor do texto </p>
+
+                <p class="font-2-s"><span class="cor-v">text-align</span>: é uma propriedade usada para definir a possição do texto no exemplo foi usado o center que é centro assim deixa o texto alinhado no centro da página. </p>
+
+
+              </div>
+            </div>
+
+
+            <div id="introdução" class="hidden conteudo">
+
+              <header class="item-tecnologias">
+                <h1 class="font-1-xl cor-1">JavaScript</h1>
+
+                <span class="font-2-s cor-2">
+                  Copie tudo que for ensinado em tempo real no Visual Studio Code, só é possivel aprender com a prática ;)
+                </span>
+
+              </header>
+
+              <header class="header-tecnologias">
+                <h2 class="font-1-l cor-1">JavaScript Introdução</h2>
+              </header>
+
+              <div class="tecnologias-conteudo">
+                <h2 class="font-1-l cor-1">1-1 Introdução JS </h2>
+
+
+                <p class="font-2-s cor-2">JavaScript ou também mais conhecido como JS é uma linguagem de programação usada para interagir com o site.</p>
+
+
+                <p class="font-2-s cor-2">Com o javascript é possivel pegar ações do usúario com o site, exemplo : Defina a cor para azul caso o mouse passe por cima do conteudo </p>
+
+                <p class="font-2-s cor-2">No exemplo abaixo vamos ver como pegar um elemento pelo html para modificar com o JavaScript </p>
+
+                <h3 class="font-1-l">Criando arquivo</h3>
+
+
+                <p class="font-2-s cor-2">Primeiro em sua pasta selecionada crie um arquivo nomeado : script.js</p>
+
+                <div class="imagem">
+                  <img src="../assets/img/imgs/criando-js.png" alt="">
+                </div>
+
+                <p class="font-2-s cor-2">após criar link esse arquivo com o html definindo no final do body digite a tag script com o atributo src=”./script.js”, essa tag é a responsavel por conectar o javascript com o html </p>
+
+                <div class="imagem">
+                  <img src="../assets/img/imgs/script.png" alt="">
+                </div>
+
+                <p class="font-2-s cor-2">Após feito isso seu arquivo script já estará funcionando.</p>
+
+              </div>
+            </div>
+
+
+            <div id="testando-ambiente" class="hidden conteudo">
+
+              <header class="item-tecnologias">
+                <h1 class="font-1-xl cor-1">JavaScript</h1>
+
+                <span class="font-2-s cor-2">
+                  Copie tudo que for ensinado em tempo real no Visual Studio Code, só é possivel aprender com a prática ;)
+                </span>
+
+              </header>
+
+              <header class="header-tecnologias">
+                <h2 class="font-1-l cor-1">Testando</h2>
+              </header>
+
+              <div class="tecnologias-conteudo">
+                <h2 class="font-1-l cor-1">2-1 Testando Ambiente </h2>
+
+
+                <p class="font-2-s cor-2">É sempre bom ter certeza de que está funcionando antes de começar-mos a realizar comandos, siga esses passos para verificar se o <span class="cor-v"> script.js </span>já está funcionando.</p>
+
+
+                <p class="font-2-s cor-2"> Digite <span class="cor-v">console.log() </span> e dentro dele coloque entre aspas <span class="cor-v"> “Olá Mundo”</span> </p>
+
+                <div class="imagem">
+                  <img src="../assets/img/imgs/ola-mundo.png" alt="">
+                </div>
+
+                <p class="font-2-s cor-2">Após ter digitado em seu navegador clique com o botão direito do mouse e vá em inspecionar, isso abrira uma janela em baixo, nessa nova janela clique em console </p>
+
+
+                <div class="imagem">
+                  <img src="../assets/img/imgs/inspecionar.png" alt="">
+                </div>
+
+
+                <div class="imagem">
+                  <img src="../assets/img/imgs/elementos-inspecionar.png" alt="">
+                </div>
+
+                <p class="font-2-s cor-2">Se tudo estiver certo irá aparecer o Olá mundo digitado antes.</p>
+
+
+
+                <div class="imagem">
+                  <img src="../assets/img/imgs/console-inspecionar.png" alt="">
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+            <div id="lógica" class="hidden conteudo">
+
+              <header class="item-tecnologias">
+                <h1 class="font-1-xl cor-1">JavaScript</h1>
+
+                <span class="font-2-s cor-2">
+                  Copie tudo que for ensinado em tempo real no Visual Studio Code, só é possivel aprender com a prática ;)
+                </span>
+
+              </header>
+
+              <header class="header-tecnologias">
+                <h2 class="font-1-l cor-1">Lógica de programação</h2>
+              </header>
+
+              <div class="tecnologias-conteudo">
+                <h2 class="font-1-l cor-1">3-1 Lógica de programação </h2>
+
+                
+                <p class="font-2-s cor-2">Na vida real se quisermos ensinar alguém a pegar dizemos assim :</p>
+                
+                <h3 class = "font-1-l">Lógica Errada</h3>
+
+                <p class="font-2-s cor-2"> O suco está na geladeira só pegar e colocar no copo.</p>
+
+        
+
+                <p class="font-2-s cor-2">Isso no mundo da programação, não funcionaria pois contamos com uma coisa chamada lógica.  </p>
+
+
+
+                <p class="font-2-s cor-2">Nessa lógica da programação você tem que ensinar a maquina a pegar o suco passo a passo pois ela não possui um cerebro igual a gente que armazena tudo e realiza tarefas e aprende com poucas palavras. Veja a maneira certa de como ensinar uma maquina a pegar um suco: </p>
+
+                <h3 class = "font-1-l">Lógica Correta</h3>
+
+
+                <p class="font-2-s cor-2">Pegue o copo com a mão esquerda e segure ele firme não aponto de quebrar, abra a geladeira sem soltar o copo da mão, localize a jara com suco dentro da geladeira e pega a ela com a mão direita segure e incline a jara e despeje o suco dentro do copo que você já está segurando.</p>
+
+
+
               </div>
             </div>
 
 
 
 
-
-
-
-
-
-
           </article>
         </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
       </div>
     </section>
   </main>
@@ -772,16 +1010,12 @@
         </div>
 
         <div class="footer-duvidas">
-          <h1 class="cor-3 font-1-l">Tem Dúvidas ?</h1>
+          <h1 class="cor-3 font-1-l">Profissional</h1>
 
           <ul>
 
             <!-- Button disable -->
-            <li class="cor-5 font-2-xs"><a href="/">sixcode@contato.com.br</a></li>
-
-
-            <!-- Button disable -->
-            <li class="cor-5 font-2-xs"><a href="/">+55 (11) 99999-9999</a></li>
+            <li class="cor-5 font-2-xs"><a href="mailto:eidiogoadm@gmail.com">eidiogoadm@gmail.com</a></li>
 
 
           </ul>
