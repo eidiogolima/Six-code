@@ -158,10 +158,12 @@ body[data-theme="t-light"] .by-light{
 #menu a {
   display: block;
   padding: 16px 30px;
-
+  color: #fff;
 
 
 }
+
+
 
 #menu a:hover {
   background: #282828;
@@ -252,6 +254,13 @@ body[data-theme="t-light"] .by-light{
     border-bottom: 1px solid #000;
 
 
+  }
+  #menu a {
+    display: block;
+    padding: 16px 30px;
+    color: inherit;
+  
+  
   }
 
   .pesquisar {

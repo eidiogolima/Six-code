@@ -5,6 +5,9 @@ boby {
   box-sizing: border-box;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
