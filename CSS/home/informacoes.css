@@ -11,14 +11,17 @@
 
 .informacoes-conteudo h1 {
   margin-bottom: 32px;
+  color: #f7f7f7;
 }
 .informacoes-conteudo h2 {
   margin-bottom:20px ;
+  color: #EDEDED;
 }
 
 .informacoes-conteudo p {
   max-width: 90ch;
   margin-bottom: 32px;
+  color: #EDEDED;
 }
 
 @media(max-width:600px) {

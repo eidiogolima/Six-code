@@ -43,7 +43,7 @@
   --cor-9: #DEDEDE;
   --cor-10: #EDEDED;
   --cor-11: #000;
-  --cor-12: #F7F7F7;
+  --cor-12: #EDEDED;
 
 
   /* --cor-p1:#FF8A00;
@@ -51,7 +51,7 @@
     --cor-p3:#492F04;
     ; */
 
-  --cor-b: linear-gradient(104.65deg, var(--cor-8) 2.88%, var(--cor-12) 128.62%);
+  --cor-b: linear-gradient(104.65deg, #cfd9df 2.88%,#e2ebf0 128.62%);
   --cor-rc: linear-gradient(251.49deg, #667EEA 37.46%, #764BA2 91.43%);
   --cor-pt: linear-gradient(98.21deg, #868F96 43.7%, #596164 78.61%);
   --cor-a: linear-gradient(251.49deg, #2AF598 37.46%, #009EFD 91.43%);
@@ -158,4 +158,8 @@
 }
 .cor-css {
   color:var(--cor-css);
+}
+
+.cor-d {
+  color:#2AF598;
 }
