@@ -34,12 +34,12 @@
 
 }
 .item-ref.i-1 {
-  background: var(--cor-rc);
+  background: var(--cor-a);
   padding: 100px 0;
 }
 
 .item-ref.i-2{
-  background: var(--cor-a);
+  background: var(--cor-rc);
   padding: 140px 0px;
   color: #fff;
 }

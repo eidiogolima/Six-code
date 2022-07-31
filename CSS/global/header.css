@@ -12,7 +12,7 @@
 
 .tema {
   background: var(--cor-rc);
-  border-radius: 4px;
+  border-radius: 50px;
   padding: 4px 10px 2px 10px;
 
 
@@ -149,7 +149,7 @@ body[data-theme="t-light"] .by-light{
 
 #menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   z-index: 1000;
 
@@ -181,11 +181,16 @@ body[data-theme="t-light"] .by-light{
 }
 
 
+/* ======== Disable Input header ======== */
+
 .pesquisar input {
   border: 1px solid transparent;
   padding: 10px;
   border-radius: 10px;
   max-width: 120px;
+
+  /* ======== Disable Input header ======== */
+  display: none;
 }
 
 .pesquisar input:focus {
@@ -196,10 +201,12 @@ body[data-theme="t-light"] .by-light{
 }
 
 #buscar {
+  display: block;
   background: url("../../assets/img/icons/buscar.svg") no-repeat right / 1.3em;
   padding-left: 1.3em;
   background-color: #fff;
   background-origin: content-box;
+  
 
 }
 #buscar-header {
